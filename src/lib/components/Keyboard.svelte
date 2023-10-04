@@ -1,25 +1,26 @@
 <section id = 'keyBoard'>
-    <button class = "b7" on:click >7</button>
-    <button class = "b8" on:click >8</button>
-    <button class = "b9" on:click >9</button>
-    <button class = "add" on:click >+</button>
+    <button value = "7" on:click >7</button>
+    <button value = "8" on:click >8</button>
+    <button value = "9" on:click >9</button>
+    <button value = "+" style="color: cyan;" on:click >+</button>
 
-    <button class = "b4" on:click >4</button>
-    <button class = "b5" on:click >5</button>
-    <button class = "b6" on:click >6</button>
-    <button class = "sub" on:click >-</button>
+    <button value = "4" on:click >4</button>
+    <button value = "5" on:click >5</button>
+    <button value = "6" on:click >6</button>
+    <button value = "-" style="color: cyan;" on:click >-</button>
 
-    <button class = "b1" on:click >1</button>
-    <button class = "b2" on:click >2</button>
-    <button class = "b3" on:click >3</button>
-    <button class = "mul" on:click >*</button>
+    <button value = "1" on:click >1</button>
+    <button value = "2" on:click >2</button>
+    <button value = "3" on:click >3</button>
+    <button value = "*" style="color: cyan;"on:click >*</button>
     
-    <button class = "comma" on:click >,</button>
-    <button class = "b0" on:click >0</button>
-    <button class = "enter" on:click >=</button>
-    <button class = "div" on:click >/</button>
+    <button value = "," style="color: cyan;" on:click >,</button>
+    <button value = "0" on:click >0</button>
+    <button value = "=" style="color: cyan;" on:click >=</button>
+    <button value = "/" style="color: cyan;"on:click >/</button>
 
-    <button id='clear' style = 'grid-column: span 4;'>CLEAR</button>
+    <button value="AC" style="grid-column: span 2; color:cyan" on:click>AC</button>
+    <button value="C" style="grid-column: span 2; color:cyan" on:click>C</button>
 </section>
 
 <style>
@@ -37,9 +38,6 @@
         font-size: 4rem;
         &:hover{
             background-color: lightgray;
-        }
-        &.add, &.sub, &.mul, &.div, &.comma, &.enter, &.clear{
-            color: cyan;
         }
     }
 </style>
