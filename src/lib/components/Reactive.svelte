@@ -77,10 +77,10 @@
     }
 </script>
 
-<fieldset>
+
     <input type="text" value={display} disabled />
     <Keyboard on:click={updateDisplay} />
-</fieldset>
+
 
 <style>
     input {
